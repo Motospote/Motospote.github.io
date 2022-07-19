@@ -5,16 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Princeton Tran</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-md navbar-light">
+        <nav class="navbar fixed-top navbar-expand-sm navbar-light shadow">
+            <div class="container-md">
             <a href="#" class="navbar-brand">
-            <img src="princeton_al_logo.png" alt="Princeton Tran Logo" width="155" height="51"
+            <img src="Assets/princeton_al_logo.png" alt="Princeton Tran Logo" width="155" height="51"
             class="d-inline-block align-top" />    
-                Princeton Tran</a>
+            <span class="hidden">Princeton Tran</span>
+            </a>
             <button
                 class="navbar-toggler"
                 type="button"
@@ -28,27 +32,49 @@
             </button>
             <div class="collapse navbar-collapse" id="toggleMobileMenu">
                 <ul class="navbar-nav ms-auto text-center">
-                    <li>
-                        <a class="nav-link" href="#">Work</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
                     </li>
-                    <li>
-                        <a class="nav-link" href="#">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Me</a>
                     </li>
                 </ul>
             </div>
-
         </nav>
     </div>
 
-    <div class="h1">
-        This is a heading
+    <!-- <div class="h1">
+        I'm baby scenester kitsch mixtape yr shaman chambray, tacos pickled kogi narwhal next level dreamcatcher fashion axe shoreditch. Cray chambray pok pok prism put a bird on it scenester cliche quinoa brunch cronut health goth cold-pressed. Sartorial typewriter williamsburg migas cred. Green juice kickstarter edison bulb godard, vexillologist sriracha tattooed venmo neutra man bun palo santo unicorn lo-fi. Echo park raw denim mlkshk listicle. Street art ennui praxis yuccie twee pok pok.
+
+Trust fund meh jianbing 8-bit, seitan chambray fingerstache forage snackwave squid pickled iceland. Tilde vice semiotics microdosing humblebrag tonx. Selvage intelligentsia cred seitan bitters skateboard pok pok taiyaki artisan taxidermy authentic la croix pabst salvia mustache. Mumblecore you probably haven't heard of them artisan gastropub hashtag vexillologist. Fixie distillery subway tile woke cronut everyday carry migas kogi messenger bag pitchfork tattooed.
+
+Beard offal retro la croix selfies affogato unicorn. Church-key kitsch thundercats tumeric brunch banh mi. Vexillologist kitsch viral locavore tbh. Quinoa sartorial meh PBR&B.
+
+Irony deep v ramps, marfa 3 wolf moon edison bulb 8-bit hell of jianbing. Lomo tote bag ugh, glossier pok pok readymade direct trade master cleanse shoreditch. Humblebrag migas glossier sustainable kale chips aesthetic whatever sriracha vexillologist venmo kombucha swag try-hard paleo put a bird on it. Portland banjo kickstarter sartorial, glossier taiyaki organic sustainable etsy DIY hella. Vaporware occupy franzen tote bag, bushwick vexillologist photo booth artisan pabst. Hell of tousled DSA neutra four loko, vape keytar pug letterpress XOXO enamel pin sriracha vexillologist.
+
+Vegan chartreuse pork belly craft beer sustainable, pok pok squid mumblecore umami slow-carb lyft synth seitan. Prism iceland schlitz actually truffaut street art. Polaroid edison bulb succulents, chicharrones bespoke taxidermy kickstarter fam swag flannel single-origin coffee. Bespoke hashtag typewriter plaid, small batch blog post-ironic kinfolk. Crucifix fam portland, cornhole copper mug ugh stumptown vice.
+
+Dummy text? More like dummy thicc text, amirite?
+    </div> -->
+
+    <div class="container maingrid">
+        <div class="row g-5">
+            <div class="col-sm-6 col-md-4">
+            <div class="p-3 text-center border">Column 1</div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+            <div class="p-3 text-center border">Column 2</div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+            <div class="p-3 text-center border">Column 3</div>
+            </div>
+
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 </html>

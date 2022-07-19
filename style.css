@@ -1,0 +1,20 @@
+body {
+    padding-top: 80px;
+    background-color: rgb(252, 248, 244);
+}
+
+.hidden {
+    display: none;
+}
+
+.navbar {
+    background-color: #a6e3b4;
+}
+
+.maingrid {
+    padding-top: 7%;
+}
+
+.col {
+    background-color: blue;
+}
